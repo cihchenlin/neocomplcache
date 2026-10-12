@@ -3,8 +3,6 @@
 
 **Note**: The development of this plugin is finished. Accepts minor patches and
 issues but no new features.
-[ddc.vim](https://github.com/Shougo/ddc.vim) is the next generation auto
-completion plugin. Consider migrating to it.
 
 
 Description
@@ -15,10 +13,6 @@ provides keyword completion system by maintaining a cache of keywords in the
 current buffer. neocomplcache could be customized easily and has a lot more
 features than the Vim's standard completion feature.
 
-If you use Vim 7.3.885 or above with if\_lua feature, you should use
-neocomplete.  It is faster than neocomplcache.
-
-https://github.com/Shougo/neocomplete.vim
 
 Installation
 ============
@@ -29,19 +23,6 @@ Installation
 `let g:neocomplcache_enable_at_startup = 1`
 in your `.vimrc`. Not in `.gvimrc`(`_gvimrc`)!
 
-Caution
--------
-
-Because all variable names were changed in neocomplcache Ver.5, it is not
-backwards compatible. If you want to upgrade, you should use the following
-script from Mr.thinca.
-
-http://gist.github.com/422503
-
-Snippets feature(snippets\_complete source) was split from Ver.7.
-If you used it, please install neosnippet source manually.
-
-https://github.com/Shougo/neosnippet
 
 Screen shots
 ============
