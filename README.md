@@ -1,5 +1,7 @@
 **neocomplcache**
 =================
+Forked from Shougo/neocomplcache.vim. 
+Enhanced SystemVerilog support, bug fixes, and performance optimizations.
 
 **Note**: The development of this plugin is finished. Accepts minor patches and
 issues but no new features.
